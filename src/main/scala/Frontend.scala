@@ -4,7 +4,8 @@ import Chisel._
 import uncore.tilelink._
 import uncore.agents._
 import uncore.util._
-import junctions.{ParameterizedBundle, AddrMap}
+import junctions.AddrMap
+import util.ParameterizedBundle
 import rocket._
 import cde.Parameters
 import DmaRequest._

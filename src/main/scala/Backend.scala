@@ -6,6 +6,7 @@ import junctions._
 import junctions.NastiConstants._
 import uncore.tilelink._
 import uncore.util._
+import util.ParameterizedBundle
 
 case object NDmaTrackers extends Field[Int]
 case object NDmaXacts extends Field[Int]
